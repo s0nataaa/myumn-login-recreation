@@ -1,8 +1,14 @@
 # myumn-login-recreation
 Recreating my.umn.ac.id login page
 
-<p>MyUMN Login Page Recreation
-A recreation of UMN's login portal as a learning project to practice HTML/CSS layout techniques.<br>
+<p>
+    MyUMN Login Page Recreation <br>
+    A recreation of UMN's login portal as a learning project to practice HTML/CSS layout techniques.<br>
+</p>
+
+<p>
+    🔗 Live Demo <br>
+    View live site = https://s0nataaa.github.io/myumn-login-recreation/
 </p>
 
 <p>📸 Preview</p>
