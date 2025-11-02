@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2742a2;
+    background-image: url("back.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background: #061340;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 3);
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+
+}
+
+.wrapper {
+    display: flex;
+    min-height: 400px;
+    height: 100%;
+    background-image: url("umnbuilding.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.login_section {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.login_box {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ff6633;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.login_header {
+    background-color: #ff6633;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #ff6633;
+}
+
+input:hover {
+    border-color: #ff6633;
+}
+
+button {
+    background-color: #ff6633;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container footer {
+    background: #061340;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
